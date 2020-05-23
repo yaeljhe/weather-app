@@ -4,8 +4,8 @@ import React from "react";
 //Class gives extra functionality not needed for this example.
 //Syntax shortened only returns 1 element. 
 const Titles = () => (
-    <div>
-        <h1 className = "title-container__title">Weather Finder</h1>
+    <div className= "titles_container">
+        <h1 className = "title-container__title">Weather Forecast</h1>
         <p className = "title-container__subtitle" >Find out Temperature Conditions and More...</p>
     </div>
 )
